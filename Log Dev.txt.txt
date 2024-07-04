@@ -7,3 +7,4 @@
 7. Buka terminal dan ketikkan perintah 'git init'
 8. Buka terminal dan ketikkan perintah 'git add .'
 9. Buka terminal dan ketikkan perintah 'git commit -m "Pertamax"'
+10. Edit file '.gitignore'
