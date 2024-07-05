@@ -9,7 +9,6 @@ use Filament\Tables\Table;
 use App\Models\Transaction;
 use Filament\Resources\Resource;
 use App\Filament\Resources\TransactionResource\Pages;
-use App\Filament\Resources\TransactionResource\RelationManagers;
 
 class TransactionResource extends Resource
 {
