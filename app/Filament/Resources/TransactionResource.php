@@ -8,11 +8,8 @@ use Filament\Forms\Form;
 use Filament\Tables\Table;
 use App\Models\Transaction;
 use Filament\Resources\Resource;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\SoftDeletingScope;
 use App\Filament\Resources\TransactionResource\Pages;
 use App\Filament\Resources\TransactionResource\RelationManagers;
-use Locale;
 
 class TransactionResource extends Resource
 {
