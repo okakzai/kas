@@ -21,7 +21,7 @@ class StatsOverview extends BaseWidget
         return [
             Stat::make('Total Pemasukan', RupiahFormat::currency($pemasukan)),
             Stat::make('Total Pengeluaran', RupiahFormat::currency($pengeluaran)),
-            Stat::make('Selisih', RupiahFormat::currency($pemasukan - $pengeluaran)),
+            Stat::make('Saldo', RupiahFormat::currency($pemasukan - $pengeluaran)),
         ];
     }
 }
