@@ -45,10 +45,6 @@ class TransactionResource extends Resource
                     ->label('Catatan')
                     ->required()
                     ->maxLength(255),
-                Forms\Components\FileUpload::make('image')
-                    ->label('Foto')
-                    ->image()
-                    ->required(),
             ]);
     }
 
@@ -69,9 +65,8 @@ class TransactionResource extends Resource
                     ->trueColor('danger')
                     ->falseColor('success')  
                     ->boolean(),
-                Tables\Columns\TextColumn::make('tanggal')
-                    ->label('Tanggal')
-                    ->date()
+                Tables\Columns\TextColumn::make('note')
+                    ->label('Keterangan')
                     ->sortable(),
                 Tables\Columns\TextColumn::make('amount')
                     ->label('Jumlah')

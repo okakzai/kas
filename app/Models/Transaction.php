@@ -16,7 +16,6 @@ class Transaction extends Model
         'tanggal',
         'amount',
         'note',
-        'image'
     ];
 
     public function category(): BelongsTo {
